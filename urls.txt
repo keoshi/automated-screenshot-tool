@@ -1,0 +1,50 @@
+// Example URLs configuration file
+// Lines starting with // are comments and will be ignored
+// Empty lines are also ignored
+
+// Basic syntax: /path/to/page
+// With timeout: /path/to/page|milliseconds
+
+
+// Dashboard and Main Pages
+/dashboard
+/
+
+// User Management
+/users
+/users/profile
+/users/settings
+
+// Analytics & Reports (with custom timeouts for chart loading)
+/analytics|3000
+/analytics/traffic|3000
+/reports/monthly|2000
+
+// Settings Pages
+/settings
+/settings/account
+/settings/billing
+/settings/integrations|2000
+
+
+// WordPress Admin Examples
+// Uncomment these if you're using WordPress
+
+// /wp-admin/
+// /wp-admin/options-general.php
+// /wp-admin/plugins.php
+// /wp-admin/admin.php?page=my-plugin
+
+
+// Pages with Heavy JavaScript/AJAX
+// Use longer timeouts for complex pages with dynamic content
+
+// /complex-dashboard|5000
+// /interactive-charts|4000
+
+
+// Tips:
+// - Start with shorter timeouts and increase if screenshots are incomplete
+// - Group related pages together with comments
+// - Test a few URLs first before running the full batch
+// - Keep this file in version control (but not .env or wp-auth.json!)

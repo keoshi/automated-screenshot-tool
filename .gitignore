@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment and credentials
+.env
+wp-auth.json
+
+# Output directories
+screenshots/
+screenshots-*/
+
+# OS files
+.DS_Store
+
+# Project-specific URLs (keep urls.txt example in repo)
+urls-jetpack.txt

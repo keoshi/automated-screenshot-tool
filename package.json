@@ -1,0 +1,18 @@
+{
+  "name": "Automated Screenshot Tool",
+  "version": "1.0.0",
+  "description": "Batch screenshot tool for authenticated web pages using Playwright. Capture full-page screenshots of any website behind login - admin panels, dashboards, SaaS applications, or internal tools. Perfect for documentation, testing, or visual regression tracking.",
+  "main": "screenshots.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "login": "node login.js",
+    "screenshots": "node screenshots.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "playwright": "^1.57.0"
+  }
+}
